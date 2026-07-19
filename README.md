@@ -1,2 +1,2 @@
-# Sarah-s---journey-
+# Sarahs-journey
 My personal health and fitness app
