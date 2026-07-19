@@ -4,10 +4,9 @@
   "description": "Deine persönliche Gesundheits- und Fitness-App",
   "start_url": "./",
   "display": "standalone",
-  "background_color": "#F8F7FF",
-  "theme_color": "#7C3AED",
+  "background_color": "#4B1E78",
+  "theme_color": "#4B1E78",
   "orientation": "portrait",
-  "lang": "de",
   "icons": [
     {
       "src": "icons/icon-192.png",
