@@ -42,6 +42,38 @@ background:white;
 margin:20px;
 padding:20px;
 border-radius:20px;
+    .progress-labels{
+    display:flex;
+    justify-content:space-between;
+    margin:18px 0 10px;
+    text-align:center;
+}
+
+.progress-labels small{
+    display:block;
+    opacity:.8;
+    font-size:13px;
+}
+
+.progress-labels strong{
+    font-size:18px;
+}
+
+.progress{
+    position:relative;
+}
+
+.progress-dot{
+    position:absolute;
+    top:50%;
+    left:72%;
+    transform:translate(-50%,-50%);
+    width:22px;
+    height:22px;
+    background:white;
+    border-radius:50%;
+    box-shadow:0 4px 12px rgba(0,0,0,.25);
+}
 box-shadow:0 8px 20px rgba(0,0,0,.08);
 text-align:center;
 }
