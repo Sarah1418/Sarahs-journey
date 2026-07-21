@@ -26,6 +26,20 @@ function saveData() {
     JSON.stringify(appData)
   );
 }
+// Aktuelles Datum anzeigen
+
+const heute = new Date();
+
+const optionen = {
+  weekday: "long",
+  day: "numeric",
+  month: "long",
+  year: "numeric"
+};
+
+const datum = heute.toLocaleDateString("de-DE", optionen);
+
+document.getElementById("date").textContent = "📅 " + datum;
 
 // Daten laden
 function loadData() {
